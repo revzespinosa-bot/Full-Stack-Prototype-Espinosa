@@ -1,0 +1,25 @@
+.page {
+  display: none;
+}
+.page.active {
+  display: block;
+}
+
+body.not-authenticated .role-logged-in {
+  display: none;
+}
+body.authenticated .role-logged-out {
+  display: none;
+}
+
+.role-admin {
+  display: none;
+}
+body.is-admin .role-admin {
+  display: block;
+}
+
+/* Toast notifications */
+.toast-custom {
+  min-width: 250px;
+}

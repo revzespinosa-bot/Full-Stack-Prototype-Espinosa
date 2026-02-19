@@ -737,13 +737,3 @@ function init() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
-document.getElementById("cancelRegisterBtn").addEventListener("click", () => {
-    // clear form
-    document.getElementById("registerForm").reset();
-
-    // go back to home (or change to #/login if you want)
-    navigateTo("#/");
-});
-document.getElementById("goToLoginBtn").addEventListener("click", () => {
-    navigateTo("#/login");
-});
